@@ -1,16 +1,16 @@
-**PASSWORD AUTHENTICATION via passport.js
+**PASSWORD AUTHENTICATION via passport.js**
 
 ```
 This app allows users to create an account, log into the account and sign back out securely. All user data is stored in a mysql database.
 ```
 
-**USER STORY
+**USER STORY**
 
 ```
 as someone who wants to safely log in to "X", I want to know my personal details are safely stored so that I dont have to worry about using "X".
 ```
 
-**GETTING STARTED
+**GETTING STARTED**
 
 to begin using this app, please clone this repository into your local storage. Once this is complete, please follow these steps;
 
@@ -23,7 +23,7 @@ to begin using this app, please clone this repository into your local storage. O
 6) enjoy using the app!
 ```
 
-**FILES EXPLAINED
+**FILES EXPLAINED**
 
 
 ```
@@ -34,7 +34,7 @@ config.json - connection configuration to connect to server
 passport.js - contains javascript logic that tells passport we want to log in with an email address and password
 ```
 
-**MODELS
+**MODELS**
 
 ```
 index.js - connects to database and imports users log in data
@@ -42,7 +42,7 @@ index.js - connects to database and imports users log in data
 user.js - requires "bcrypt" for password hashing. this makes our database secure even if compromised. Here we have JS that defines what is stored on our database
 ```
 
-**ROUTES
+**ROUTES**
 
 ```
 api-routes.js - contains routes for signing in, logging out and getting users specific data to be displayed client side
